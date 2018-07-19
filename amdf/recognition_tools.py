@@ -8,7 +8,7 @@ Created on Sun Jun 17 22:48:19 2018
 
 import numpy as np
 import scipy.optimize
-# from sensei.constants import FPS, MEDFILT, MEDFILT_SIZE
+# from amdf.constants import FPS, MEDFILT, MEDFILT_SIZE
 from constants import FPS, MEDFILT, MEDFILT_SIZE
 
 import sys
