@@ -34,7 +34,7 @@ plot '../data/gnuplot/no_gest_angles.txt' using 1:2 with points lc rgb '#0060ad'
      
 set key right bottom
 
-set terminal pngcairo
-set output '../results/no_gest_angles.png'
+set terminal pdf
+set output '../results/no_gest_angles.pdf'
 replot 
 set terminal x11

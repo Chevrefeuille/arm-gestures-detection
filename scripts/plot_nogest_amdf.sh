@@ -34,7 +34,7 @@ plot '../data/gnuplot/no_gest_amdf.txt' using 1:2 with lines ls 1 title "amdf", 
      
 set key right bottom
 
-set terminal pngcairo
-set output '../results/no_gest_amdf.png'
+set terminal pdf
+set output '../results/no_gest_amdf.pdf'
 replot 
 set terminal x11

@@ -34,7 +34,7 @@ plot '../data/gnuplot/no_gest_angles_shoulder.txt' using 1:2 with points lc rgb 
      
 set key right bottom
 
-set terminal pngcairo
-set output '../results/no_gest_angles_shoulder.png'
+set terminal pdf
+set output '../results/no_gest_angles_shoulder.pdf'
 replot 
 set terminal x11

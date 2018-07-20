@@ -34,7 +34,7 @@ plot '../data/gnuplot/weak_gest_angles.txt' using 1:2 with points lc rgb '#0060a
      
 set key right bottom
 
-set terminal pngcairo
-set output '../results/weak_gest_angles.png'
+set terminal pdf
+set output '../results/weak_gest_angles.pdf'
 replot 
 set terminal x11

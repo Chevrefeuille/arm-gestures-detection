@@ -33,7 +33,7 @@ plot '../data/gnuplot/strong_gest_amdf.txt' using 1:2 with lines ls 1 title "amd
      
 set key right bottom
 
-set terminal pngcairo
-set output '../results/strong_gest_amdf.png'
+set terminal pdf
+set output '../results/strong_gest_amdf.pdf'
 replot 
 set terminal x11

@@ -37,7 +37,7 @@ plot '../data/pdfs/v_diff_0.txt' with lines  ls 1  title "0", \
  
 set key right top
 
-set terminal pngcairo
-set output '../results/vdiff_pdfs_intensity.png'
+set terminal pdf
+set output '../results/vdiff_pdfs_intensity.pdf'
 replot 
 set terminal x11
